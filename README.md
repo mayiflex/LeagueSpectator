@@ -19,4 +19,4 @@ LeagueSpectator is a Windows app to spectate League of Legends games by summoner
 
 ## Disclaimer
 
-This project is not endorsed by or affiliated with Riot Games. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc.
+This project is not endorsed by or affiliated with Riot Games.
