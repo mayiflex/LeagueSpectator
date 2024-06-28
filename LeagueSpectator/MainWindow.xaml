@@ -1,0 +1,26 @@
+﻿<Window x:Class="LeagueSpectator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeagueSpectator"
+        mc:Ignorable="d"
+        Title="LeagueSpectator" Height="100" Width="200" Icon="/leaguespectate.png" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="125"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="TextBox_Name" Grid.Column="0" Margin="10 0 0 5" VerticalAlignment="Center" TextChanged="TextBox_Name_TextChanged"></TextBox>
+            <TextBlock Grid.Column="1" VerticalAlignment="Center">#</TextBlock>
+            <TextBox x:Name="TextBox_Tag" Grid.Column="2" Margin="0 0 10 5" VerticalAlignment="Center"></TextBox>
+        </Grid>
+        <Button Grid.Row="1" Margin="10 0 10 10" x:Name="Button_Spectate" Click="Button_Spectate_Click">Spectate</Button>
+    </Grid>
+</Window>
