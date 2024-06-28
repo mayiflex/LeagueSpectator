@@ -5,9 +5,6 @@ LeagueSpectator is a Windows app to spectate League of Legends games by summoner
 ## Features
 
 - Allows spectating League of Legends games by summoner name and tag.
-- Connects to the League of Legends Client.
-- Parses the summoner's name and tag from the input field.
-- Displays a message if the summoner is not found.
 
 ## Usage
 
